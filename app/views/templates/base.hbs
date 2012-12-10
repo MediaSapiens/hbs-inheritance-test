@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>{{#title}} Default Title {{/title}}</title>
+</head>
+<body>
+  {{> header}}
+  {{#content}}
+    This will be default content that appears in a
+    deriving template if it does not declare a
+    replacement for the "content" section.
+  {{/content}}
+  {{> footer}}
+</body>
+</html>
+
+<!-- home.hbs -->
+{{derives base}}
+{{#title}} Home {{/title}}
+{{#content}} HOME {{/content}}
+
+<!-- about.hbs -->
+{{derives base}}
+{{#title}} About {{/title}}
+{{#content}} ABOUT {{/content}}

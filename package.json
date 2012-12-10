@@ -1,0 +1,35 @@
+{
+  "author": "Sergej Felde",
+  "name": "frontend-helper",
+  "description": "Package description",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.6.10 || 0.8 || 0.9"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "dependencies": {
+    "javascript-brunch": ">= 1.0 < 1.4",
+    "less-brunch": ">= 1.4",
+
+    "css-brunch": ">= 1.0 < 1.4",
+
+    "handlebars-brunch": ">= 1.0 < 1.4",
+    "nunjucks": ">=0.1.6",
+
+    "uglify-js-brunch": ">= 1.0 < 1.4",
+    "clean-css-brunch": ">= 1.0 < 1.4"
+  },
+  "devDependencies": {
+    "chai": "1.2.0",
+    "sinon": "1.4.2",
+    "sinon-chai": "2.1.2"
+  }
+}
